@@ -1,0 +1,115 @@
+@import url(http://fonts.googleapis.com/css?family=montserrat:400,700);
+Body {
+ color: #555;
+ margin: 0;
+
+ font-family: 'montserrat', sans-serif;
+}
+#Header {
+  Background-color: #Bada55;
+  Height: 150px;
+  line-height: 150px;
+}
+#header-nav a {
+ color: white;
+ text-decoration: none;
+ text-transform: uppercase;
+ letter-spacing: 0.1em;
+}
+#header a:hover {
+ color: #222;
+}
+#header-title {
+ color: white;
+ text-decoration: none;
+ text-transform: uppercase;
+ letter-spacing: 0.1em;
+ display: block;
+ float: left;
+ font-size: 50px;
+ font-weight: bold;
+}
+#header-nav {
+ display: block;
+ float: right;
+ margin-top: 0;
+}
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+#footer {
+ background-color: #2f2f2f;
+ padding: 50px 0;
+}
+.Column {
+ min-width: 500px;
+ display: inline-block;
+ vertical-align: top;
+}
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#footer p {
+  color: white;
+  font: arial;
+  font-weight: bold;
+}
+#footer a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+#footer a:hover {
+  color: #f6a623;
+}
+.post, .About {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.Post-author span {
+ margin-left: 30px;
+ font-size: 40px;
+ vertical-align: 20px;
+}
+.post-date {
+  color: #d2d2d2;
+
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+h1, h2, h3, h4 {
+  color: #Bada55;
+}
+p {
+  line-height: 30px;
+}
+.post-date:hover {
+  color: #Bada55;
+}
+#Contact {
+  height: 300px;
+  line-height: 300px;
+}
+#contact p {
+ padding: 100px;
+}
+.Post-author img {
+ width: 60px;
+ height: 60px;
+ border-radius: 80px;
+}
+.About-author img {
+ border-radius: 100px;
+}
+.post-container:nth-child(even) {
+ background-color: #f2f2f2;
+}
